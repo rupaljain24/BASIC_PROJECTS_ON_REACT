@@ -1,0 +1,79 @@
+html{
+  font-family: cursive;
+}
+.App {
+  text-align: center;
+}
+
+h1{
+  font-family:cursive;
+  font-size: 5rem;
+  font-weight: 100;
+  margin: 2rem 0rem;
+  letter-spacing: -1px;                                              
+}
+
+.btn-add{
+  height: 50px;
+  width: 50px;
+  font-style: bold;
+  font-size: 40px;
+  color:white;
+  font-weight: 20px;
+  background: black;
+  border-radius: 30px;
+
+}
+
+.photo-grid{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.figure{
+  border: 2px solid grey;
+  flex-basis: calc(33.333% - 4rem);
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0 2rem 2rem 2rem;
+  color: black;
+}
+.btn-container{
+  margin-top: 10px;
+}
+.caption{
+  font-family: cursive;
+}
+.remove-btn{
+  color:white;
+  background-color: grey;
+  border: 5px solid black;
+
+}
+
+.remove-btn:hover{
+  background: red;
+  color: black;
+} 
+/* body{
+  background-color: aqua;
+} */
+/* 
+table{
+  border: 5px solid black;
+  padding: 20px;
+  margin: 60px auto;
+}
+.table-div{
+  align-items: center;
+}
+
+.link{
+      text-decoration: none;
+      background: red;
+      color: black;
+      border: 5px solid black  ;
+}
